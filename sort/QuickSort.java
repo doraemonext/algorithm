@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.Random;
 
 class QuickSort {
@@ -15,10 +14,8 @@ class QuickSort {
     private static void shuffle(int[] nums) {
         Random random = new Random();
         for (int i = nums.length - 1; i >= 0; i--) {
-            int tmp = nums[i];
             int index = random.nextInt(i + 1);
-            nums[i] = nums[index];
-            nums[index] = tmp;
+            swap(nums, index, i);
         }
     }
 
