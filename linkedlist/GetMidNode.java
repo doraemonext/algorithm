@@ -1,3 +1,7 @@
+package linkedlist;
+
+import common.ListNode;
+
 /**
  * 获取一个指定链表的中间节点 （存在两个时取后面一个）
  */
@@ -25,12 +29,4 @@ public class GetMidNode {
         mid = (mid == null) ? head : mid.next;
         return mid;
     }
-}
-
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode() {}
-    ListNode(int val) { this.val = val; }
-    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 }
