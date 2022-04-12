@@ -1,5 +1,8 @@
 import java.util.Random;
 
+/**
+ * 快速排序（带随机）
+ */
 class QuickSort {
 
     public static void main(String[] args) {

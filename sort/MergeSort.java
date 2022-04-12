@@ -1,3 +1,6 @@
+/**
+ * 归并排序，自顶向下
+ */
 public class MergeSort {
 
     public static void main(String[] args) {
